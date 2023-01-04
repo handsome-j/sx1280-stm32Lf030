@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>51FF6B066783545613230767</stlinkserialNo>
+        <stlinkfoundProbes />
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 1</CStepIntDis>
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>2</stlinkResetStrategy>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>334826129</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>D:\IARFORARM\arm\CONFIG\debugger\ST\STM32F030C8.ddf</MemConfigValue>
+    </PlDriver>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ArmDriver>
+        <EnableCache>0</EnableCache>
+    </ArmDriver>
+    <PlDdfRanges>
+        <ConfigRanges0>Memory ROM 536856576 14336 1</ConfigRanges0>
+        <ConfigRanges1>Memory PeriphAPB_1 1073741824 29696 2</ConfigRanges1>
+        <ConfigRanges2>Memory PeriphAPB_2 1073807360 23552 2</ConfigRanges2>
+        <ConfigRanges3>Memory PeriphAHB1 1073872896 13312 2</ConfigRanges3>
+        <ConfigRanges4>Memory PeriphAHB2 1207959552 6144 2</ConfigRanges4>
+        <ConfigRanges5>Memory SystemSFR 3758096384 1048576 2</ConfigRanges5>
+        <ConfigRanges6>Memory RemapMem 0 65536 1</ConfigRanges6>
+        <ConfigRanges7>Memory Flash 134217728 65536 1</ConfigRanges7>
+        <ConfigRanges8>Memory RAM 536870912 8192 0</ConfigRanges8>
+    </PlDdfRanges>
+    <PlCacheRanges>
+        <CustomRanges0>0 0 65536 1 0</CustomRanges0>
+        <CustomRangesText0 />
+        <CustomRanges1>0 134217728 65536 1 0</CustomRanges1>
+        <CustomRangesText1 />
+        <CustomRanges2>0 536856576 14336 1 0</CustomRanges2>
+        <CustomRangesText2 />
+        <CustomRanges3>0 536870912 8192 0 0</CustomRanges3>
+        <CustomRangesText3 />
+        <CustomRanges4>0 1073741824 29696 2 0</CustomRanges4>
+        <CustomRangesText4 />
+        <CustomRanges5>0 1073807360 23552 2 0</CustomRanges5>
+        <CustomRangesText5 />
+        <CustomRanges6>0 1073872896 13312 2 0</CustomRanges6>
+        <CustomRangesText6 />
+        <CustomRanges7>0 1207959552 6144 2 0</CustomRanges7>
+        <CustomRangesText7 />
+        <CustomRanges8>0 3758096384 1048576 2 0</CustomRanges8>
+        <CustomRangesText8 />
+    </PlCacheRanges>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "0x080033B2" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Radio\sx1280.c}.1222.11" 0 0 1 "" 0 "" 0</Bp1>
+        <Count>2</Count>
+    </Breakpoints2>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

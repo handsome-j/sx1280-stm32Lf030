@@ -1,0 +1,85 @@
+"D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr_ex.c"
+-std=c99
+-ferror-limit=0
+-fbracket-depth=512
+-funsigned-char
+-MD
+-MF
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\EWARM\SPIV0.0\BrowseInfo\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_pwr_ex.pbi.dep
+-o
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\EWARM\SPIV0.0\BrowseInfo\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_pwr_ex.pbi
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\STM32F0xx_HAL_Driver\Src
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM/../Core/Inc
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM/../Drivers/STM32F0xx_HAL_Driver/Inc
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM/../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM/../Drivers/CMSIS/Device/ST/STM32F0xx/Include
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM/../Drivers/CMSIS/Include
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM\..\Radio
+-I
+D:\瀛︿範\灏忛」鐩甛sx1280+stm32\SPI浠ｇ爜\SX1280V0\EWARM
+-I
+D:\IARFORARM\arm\inc\c\aarch32
+-I
+D:\IARFORARM\arm\inc
+-I
+D:\IARFORARM\arm\inc\c
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Core\Inc
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\STM32F0xx_HAL_Driver\Inc
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\STM32F0xx_HAL_Driver\Inc\Legacy
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Drivers\CMSIS\Include
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\Radio
+-I
+D:\学习\小项目\sx1280+stm32\SPI代码\SX1280V0\EWARM
+-DUSE_HAL_DRIVER=1
+-DSTM32F030x8=1
+-D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
+-D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )
+-D__CODE_MEMORY_LIST3__(_P1,_P2)=__CODE_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
+-D__DATA_MEMORY_LIST1__()=__DATA_MEM_HELPER1__(__data, 0 )
+-D__DATA_MEMORY_LIST2__(_P1)=__DATA_MEM_HELPER2__(__data, 0 ,  _P1 )
+-D__DATA_MEMORY_LIST3__(_P1,_P2)=__DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__CODE_PTR_MEMORY_LIST1__()=__CODE_PTR_MEM_HELPER1__(__code, 0 )
+-D__CODE_PTR_MEMORY_LIST2__(_P1)=__CODE_PTR_MEM_HELPER2__(__code, 0 ,  _P1 )
+-D__CODE_PTR_MEMORY_LIST3__(_P1,_P2)=__CODE_PTR_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
+-D__DATA_PTR_MEMORY_LIST1__()=__DATA_PTR_MEM_HELPER1__(__data, 0 )
+-D__DATA_PTR_MEMORY_LIST2__(_P1)=__DATA_PTR_MEM_HELPER2__(__data, 0 ,  _P1 )
+-D__DATA_PTR_MEMORY_LIST3__(_P1,_P2)=__DATA_PTR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__VAR_MEMORY_LIST1__()=__VAR_MEM_HELPER1__(__data, 0 )
+-D__VAR_MEMORY_LIST2__(_P1)=__VAR_MEM_HELPER2__(__data, 0 ,  _P1 )
+-D__VAR_MEMORY_LIST3__(_P1,_P2)=__VAR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__VARD_MEMORY_LIST1__()=__VARD_MEM_HELPER1__(__data, 0, _ )
+-D__HEAP_MEMORY_LIST1__()=__HEAP_MEM_HELPER1__(__data, 0 )
+-D__HEAP_MEMORY_LIST2__(_P1)=__HEAP_MEM_HELPER2__(__data, 0 ,  _P1 )
+-D__HEAP_MEMORY_LIST3__(_P1,_P2)=__HEAP_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__HVAR_MEMORY_LIST1__()=__HVAR_MEM_HELPER1__(__data, 0 )
+-D__HEAPD_MEMORY_LIST1__()=__HEAPD_MEM_HELPER1__(__data, 0, _ )
+-D__HEAPU_MEMORY_LIST1__()=__HEAPU_MEM_HELPER1__(__data, 0 )
+-D__TOPM_DATA_MEMORY_LIST1__()=
+-D__TOPM_DATA_MEMORY_LIST2__(_P1)=
+-D__TOPM_DATA_MEMORY_LIST3__(_P1,_P2)=
+-D__TOPP_DATA_MEMORY_LIST1__()=__TOPP_DATA_MEM_HELPER1__(__data, 0 )
+-D__TOPP_DATA_MEMORY_LIST2__(_P1)=__TOPP_DATA_MEM_HELPER2__(__data, 0 ,  _P1 )
+-D__TOPP_DATA_MEMORY_LIST3__(_P1,_P2)=__TOPP_DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__DATA_MEM0_SIZE_TYPE__=unsigned int
+-D__DATA_MEM0_INDEX_TYPE__=signed int
+-D__iar_fp2bits32(x)=0
+-D__iar_fp2bits64(x)=0
+-D__iar_fpgethi64(x)=0
+-D__iar_atomic_add_fetch(x,y,z)=0
+-D__iar_atomic_sub_fetch(x,y,z)=0
+-D__iar_atomic_load(x,y)=0ULL
+-D__iar_atomic_compare_exchange_weak(a,b,c,d,e)=0
